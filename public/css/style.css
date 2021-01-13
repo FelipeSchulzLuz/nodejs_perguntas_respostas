@@ -1,0 +1,31 @@
+body {
+    background: rgb(222,239,255);
+    background: -moz-linear-gradient(top, rgb(222,239,255) 0%, rgb(152,190,222) 100%);
+    background: -webkit-linear-gradient(top, rgb(222,239,255) 0%,rgb(152,190,222) 100%);
+    background: linear-gradient(to bottom, rgb(222,239,255) 0%,rgb(152,190,222) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#deefff', endColorstr='#98bede',GradientType=0 );
+    min-height: 100vh;
+  }
+
+.container{
+  margin-top: 5vh;
+}
+.dark-bg {
+  background: rgb(63, 76, 107);
+  background: -moz-linear-gradient(
+    top,
+    rgb(63, 76, 107) 0%,
+    rgb(96, 108, 136) 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgb(63, 76, 107) 0%,
+    rgb(96, 108, 136) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgb(63, 76, 107) 0%,
+    rgb(96, 108, 136) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#606c88',GradientType=0 );
+}

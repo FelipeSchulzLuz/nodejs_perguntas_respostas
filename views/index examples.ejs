@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas e Respostas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>Guia Perguntas</h1>
+        <h3>Lista de perguntas</h3>
+    </header>
+    <div class="card">
+        <p><%= nome %></p>
+        <p><%= sobrename %></p>
+        <p><%= empresa %></p>
+        <p><%= inscritos %></p>
+    </div>
+
+
+    <!-- <img src="/img/123.jpg" alt=""> -->
+    <% if (msg) { %>
+        <h3>Isso é uma mensagem de erro!</h3>
+        <% } else { %>
+            <h3>Nenhum erro!</h3>
+            <%}%>
+
+                <% produtos.forEach(function(produto) { %>
+                    <ul>
+                        <ol>
+                            <%= produto.nome %>
+                                <%= produto.preco %>
+                        </ol>
+                    </ul>
+                    <%})%>
+
+</body>
+
+</html>
